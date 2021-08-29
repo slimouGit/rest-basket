@@ -17,6 +17,6 @@ public class ItemPopulate implements CommandLineRunner {
         Item item = new Item();
         item.setName("Banane");
         item.setPrice(1.42);
-        this.itemRepository.save(item);
+        //this.itemRepository.save(item);
     }
 }
